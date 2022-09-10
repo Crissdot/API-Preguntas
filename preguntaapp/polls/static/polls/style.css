@@ -1,4 +1,7 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +29,7 @@ ul, fieldset {
   flex-direction: column;
 }
 
-header, ul, form {
+header, ul, form, h1 {
   background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
   text-align: center;
   background-clip: text;
@@ -34,7 +37,11 @@ header, ul, form {
   -webkit-text-fill-color: transparent;
 }
 
-li {
+h1 {
+  font-size: 4rem;
+}
+
+li, button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +55,7 @@ a {
   text-decoration: none;
 }
 
-li > a {
+li > a, button > a {
   text-align: center;
   width: 100%;
   padding: 50px 0;
