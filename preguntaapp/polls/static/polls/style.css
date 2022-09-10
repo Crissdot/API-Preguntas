@@ -19,14 +19,14 @@ header {
   color: #71632d;
 }
 
-ul {
+ul, fieldset {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-header, ul {
+header, ul, form {
   background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
   text-align: center;
   background-clip: text;
